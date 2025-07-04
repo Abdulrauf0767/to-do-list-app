@@ -1,0 +1,49 @@
+# Node modules (frontend & backend)
+node_modules
+client/node_modules
+server/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs (React build)
+client/dist
+client/build
+
+# Environment variables
+.env
+.env.local
+client/.env
+client/.env.local
+server/.env
+server/.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode
+.idea
+
+# OS specific
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+
+# Coverage reports
+coverage
+
+# Optional if using Docker
+docker-compose.override.yml
+
+# Optional for testing
+jest-coverage/
+cypress/videos/
+cypress/screenshots/
